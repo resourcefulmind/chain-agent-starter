@@ -1,0 +1,15 @@
+{
+  "name": "chain-agent-starter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo:agent": "node scripts/demoAgent.js",
+    "demo:smoke": "node scripts/smokeTest.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.12.1",
+    "node-fetch": "^3.3.2"
+  }
+}
